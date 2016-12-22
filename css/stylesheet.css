@@ -30,7 +30,7 @@ p {
 
 .jumbotron {
   background-image: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1070x10000:format=jpg/path/sc96c6335ee1b0cc8/image/i4507aea7d94925d4/version/1468576517/image.jpg");
-  background-size: contain;
+  background-size: auto 100%;
   height: 600px;
 }
 
