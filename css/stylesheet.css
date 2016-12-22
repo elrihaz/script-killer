@@ -1,0 +1,124 @@
+html,
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.centrer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/******************************BANNIERE*********************************************/
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1070x10000:format=jpg/path/sc96c6335ee1b0cc8/image/i4507aea7d94925d4/version/1468576517/image.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+
+/******************************NAVIGATION*******************************************/
+
+ul {
+  margin-bottom: 60px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  color: dimgrey;
+  background-color: white;
+}
+
+ul p {
+  padding-top: 10px;
+}
+
+ul li {
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+ul li.active,
+ul li:hover,
+ul li.active:hover {
+  color: darkslategray;
+  transition: 0.6s;
+}
+
+
+/****************************SECTION************************************************/
+
+.texte p,
+figure {
+  margin-bottom: 60px;
+}
+
+figure img,
+figure iframe {
+  width: 100%;
+  padding: 10px;
+}
+
+.texte h1,
+figure h1{
+  color: darkslategray;
+  font-size: 1.5em;
+  padding: 10px 0 2px;
+}
+
+.texte h2,
+figure h2 {
+  color: darkseagreen;
+  font-size: 1.2em;
+  padding-bottom: 6px;
+}
+
+.texte p {
+  font-size: 1em;
+}
+
+figure p {
+  font-size: 0.9em;
+  padding: 0 10px;
+}
+
+/*************************BAS DE PAGE**************************/
+
+footer {
+  height: 220px;
+  background-color: #32333B;
+}
+
+
+/**************************************************************/
+
+
+/* Media Queries */
+
+@media (max-width: 680px) {
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+}
