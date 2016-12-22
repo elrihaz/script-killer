@@ -1,9 +1,20 @@
 html,
 body,
+header,
+section,
+div,
+#banniere,
+.row,
+figure,
+iframe,
+img,
+footer,
 h1,
 h2,
 h3,
-p {
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -24,6 +35,17 @@ p {
   justify-content: center;
 }
 
+.fond-noir {
+  background-color: black;
+}
+
+.fond-gris {
+  background-color: grey;
+}
+
+.fond-blanc {
+  background-color: white;
+}
 
 
 /******************************BANNIERE*********************************************/
@@ -53,20 +75,19 @@ p {
   background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
 }
 
+
 /******************************NAVIGATION*******************************************/
 
 ul {
   display: flex;
-
-  padding: 0px;
-  margin-top: -173px;
-  margin-left: 215px;
-  margin-bottom: 120px;
+  align-items: center;
+  margin-top: -62px;
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: white;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #SK {
@@ -74,9 +95,12 @@ ul {
 }
 
 ul li {
-  padding: 20px;
+  height: 62px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 ul li.active,
@@ -91,6 +115,10 @@ ul li.active:hover {
 
 /****************************SECTION************************************************/
 
+#contenu {
+  padding-top: 60px;
+}
+
 .texte p,
 figure {
   margin-bottom: 60px;
@@ -103,7 +131,7 @@ figure iframe {
 }
 
 .texte h1,
-figure h1{
+figure h1 {
   color: darkslategray;
   font-size: 1.5em;
   padding: 10px 0 2px;
@@ -124,6 +152,7 @@ figure p {
   font-size: 0.9em;
   padding: 0 10px;
 }
+
 
 /*************************BAS DE PAGE**************************/
 
