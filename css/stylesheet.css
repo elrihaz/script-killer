@@ -31,8 +31,11 @@ p {
 }
 
 .centrer {
-  display: flex;
   justify-content: center;
+}
+
+.row{
+  display: flex;
 }
 
 .fond-noir {
@@ -89,7 +92,7 @@ ul {
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -152,12 +155,30 @@ figure p {
   padding: 0 10px;
 }
 
-.row h1 {
-  margin-bottom: 10px;
+.row h1,
+.row h2,
+.row h3 {
+  margin-bottom: 20px;
 }
 
-.row p {
-  margin-bottom: 30px;
+.row h1 {
+  color: darkseagreen;
+  font-size: 1.8em;
+}
+
+.row h2 {
+  color: darkseagreen;
+  font-size: 1.5em;
+}
+
+.row h3 {
+  color: darkslategray;
+  font-size: 1em;
+}
+
+.row p,
+.row img {
+  margin-bottom: 50px;
 }
 
 
