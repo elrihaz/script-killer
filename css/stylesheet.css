@@ -47,6 +47,10 @@ p {
   background-color: white;
 }
 
+.container {
+  max-width: 60%;
+}
+
 
 /******************************BANNIERE*********************************************/
 
@@ -119,14 +123,9 @@ ul li.active:hover {
   padding-top: 60px;
 }
 
-.texte p,
-figure {
-  margin-bottom: 60px;
-}
-
 figure img,
 figure iframe {
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 .texte h1,
@@ -145,11 +144,20 @@ figure h2 {
 
 .texte p {
   font-size: 1em;
+  margin-bottom: 60px;
 }
 
 figure p {
   font-size: 0.9em;
   padding: 0 10px;
+}
+
+.row h1 {
+  margin-bottom: 10px;
+}
+
+.row p {
+  margin-bottom: 30px;
 }
 
 
