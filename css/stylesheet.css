@@ -19,10 +19,6 @@ li {
   padding: 0;
 }
 
-.containeur {
-  max-width: 100%;
-}
-
 h1,
 h2,
 h3 {
@@ -91,6 +87,7 @@ p {
 /******************************BANNIERE*********************************************/
 
 #banniere {
+  align-items: center;
   background-size:cover;
   height: 600px;
 }
@@ -127,7 +124,6 @@ ul {
   font-family: 'Anton', sans-serif;
   font-size: 1.4em;
   color: white;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #SK {
@@ -141,6 +137,7 @@ ul li {
   padding-left: 20px;
   padding-right: 20px;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 ul li.active,
@@ -235,10 +232,11 @@ footer {
 
 
 /* Media Queries */
-/*
+
 @media (max-width: 680px) {
   .nav {
     float: none;
+    display: block;
     margin: 0 auto;
   }
-}*/
+}
