@@ -38,7 +38,7 @@ h2 {
 
 h3 {
   color: darkslategray;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 p {
@@ -163,6 +163,21 @@ ul li.active:hover {
   background-color: white;
 }
 
+.cous h2 {
+  font-size: 3em;
+}
+
+.cous h3 {
+  font-size: 1.6em;
+}
+
+.cous p {
+  text-align:justify;
+}
+
+.cous iframe {
+  text-align:center;
+}
 
 .main-bienvenue p {
   color: antiquewhite;
