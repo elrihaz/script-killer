@@ -156,7 +156,7 @@ ul li.active:hover {
 }
 
 .fond-gris {
-  background-color: grey;
+  background-color:dimgray;
 }
 
 .fond-blanc {
@@ -168,19 +168,22 @@ ul li.active:hover {
 }
 
 .cous h3 {
-  font-size: 1.6em;
+  font-size: 1.5em;
+  text-align:right;
 }
 
 .cous p {
   text-align:justify;
 }
 
-.cous iframe {
-  text-align:center;
-}
-
 .main-bienvenue p {
   color: antiquewhite;
+}
+
+.main-bienvenue h1,
+.main-bienvenue h2,
+.main-bienvenue h3 {
+  color:aquamarine;
 }
 
 .main-collabo img {
