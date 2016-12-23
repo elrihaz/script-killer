@@ -47,7 +47,7 @@ p {
 }
 
 .row{
-  display: flex;
+  display: block;
 }
 
 .centrer {
@@ -89,7 +89,7 @@ p {
 
 #banniere {
   background-size:cover;
-  height: 600px;
+  height: 480px;
   display: flex;
   align-items:flex-end;
   justify-content:center;
@@ -170,7 +170,7 @@ ul li.active:hover {
 }
 
 .cous h3 {
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-align:right;
 }
 
@@ -237,7 +237,7 @@ footer {
 @media (max-width: 790px) {
 
   #banniere {
-    justify-content:flex-start;
+    justify-content:flex-end;
     height: 400px;
   }
 
