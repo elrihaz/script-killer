@@ -89,7 +89,7 @@ p {
 
 #banniere {
   background-size:cover;
-  height: 500px;
+  height: 600px;
   display: flex;
   align-items:flex-end;
   justify-content:center;
@@ -234,10 +234,18 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 680px) {
-  .nav {
-    float: none;
-    display: block;
-    margin: 0 auto;
+@media (max-width: 790px) {
+
+  #banniere {
+    justify-content:flex-start;
+    height: 400px;
   }
+
+  ul {
+    display: block;
+    width: 200px;
+  }
+
+  #SK {
+    width: 61px;
 }
