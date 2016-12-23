@@ -86,10 +86,13 @@ p {
 
 /******************************BANNIERE*********************************************/
 
+
 #banniere {
-  align-items: center;
   background-size:cover;
   height: 600px;
+  display: flex;
+  align-items:flex-end;
+  justify-content:center;
 }
 
 .ban-accueil {
@@ -116,9 +119,7 @@ p {
 /******************************NAVIGATION*******************************************/
 
 ul {
-  display: flex;
-  position:relative;
-  top: 520px;
+  display: inline-flex;
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
