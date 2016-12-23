@@ -116,8 +116,8 @@ p {
 
 ul {
   display: flex;
-  align-items: center;
-  margin-top: -62px;
+  position:relative;
+  top: 500px;
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
