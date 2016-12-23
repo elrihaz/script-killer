@@ -121,7 +121,7 @@ ul {
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -213,10 +213,10 @@ footer {
 
 
 /* Media Queries */
-
+/*
 @media (max-width: 680px) {
   .nav {
     float: none;
     margin: 0 auto;
   }
-}
+}*/
