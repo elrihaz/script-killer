@@ -169,7 +169,7 @@ ul li.active:hover {
 }
 
 .main-collabo img {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
