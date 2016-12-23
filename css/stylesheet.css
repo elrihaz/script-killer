@@ -182,7 +182,7 @@ footer {
 /* Media Queries */
 
 @media (max-width: 680px) {
-  .menu {
+  .nav {
     float: none;
     margin: 0 auto;
   }
