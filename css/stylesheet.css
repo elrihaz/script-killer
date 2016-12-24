@@ -234,7 +234,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 1080px) {
+@media (max-width: 820px) {
 
   #banniere {
     justify-content:flex-start;
@@ -252,6 +252,12 @@ footer {
 }
 
 @media (min-width: 1080px) {
+  #banniere {
+    height: 600px;
+  }
+}
+
+@media not (orientation: landscape) {
   #banniere {
     height: 600px;
   }
