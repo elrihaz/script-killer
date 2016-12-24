@@ -251,7 +251,7 @@ footer {
 }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1080px) {
   #banniere {
     height: 600px;
   }
