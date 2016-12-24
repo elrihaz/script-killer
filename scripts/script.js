@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+  // se positionne en haut de page
+    $('html, body').animate({scrollTop: 0}, 0);
+
   // Par défaut : affiche la page d'accueil ds le div "main"
   $("#main").load("html/accueil.html");
 
