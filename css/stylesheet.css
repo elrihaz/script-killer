@@ -89,7 +89,6 @@ p {
 
 #banniere {
   background-size:cover;
-  height: 300px;
   display: flex;
   align-items:flex-end;
   justify-content:center;
@@ -253,12 +252,6 @@ footer {
 
 @media (min-width: 820px) {
   #banniere {
-    height: 600px;
-  }
-}
-
-@media not (orientation: landscape) {
-  #banniere {
-    height: 600px;
+    height: 480px;
   }
 }
