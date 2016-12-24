@@ -36,11 +36,6 @@ h2 {
   font-size: 1.5em;
 }
 
-h3 {
-  color: darkslategray;
-  font-size: 1.2em;
-}
-
 p {
   font-family: 'Roboto Slab', serif;
   font-size: 1em;
@@ -164,27 +159,29 @@ ul li.active:hover {
   background-color: white;
 }
 
-.cous h2 {
-  font-size: 3em;
-}
-
-.cous h3 {
-  font-size: 1.1em;
-  text-align:right;
-}
-
-.cous p {
-  text-align:justify;
-}
-
-.main-bienvenue p {
-  color: antiquewhite;
-}
-
 .main-bienvenue h1,
 .main-bienvenue h2,
 .main-bienvenue h3 {
   color:aquamarine;
+}
+
+.cous h2 {
+  font-size: 2.5em;
+  color: antiquewhite;
+}
+
+.cous p {
+  text-align:justify;
+  padding-left: 20px;
+}
+
+.cous span {
+  color:aquamarine;
+  font-size: 1.6em;
+}
+
+.main-bienvenue p {
+  color: antiquewhite;
 }
 
 .main-collabo img {
@@ -237,7 +234,7 @@ footer {
 
   #banniere {
     justify-content:flex-start;
-    height: 320px;
+    height: 400px;
   }
 
   ul {
