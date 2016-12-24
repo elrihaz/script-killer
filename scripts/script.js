@@ -3,8 +3,7 @@ $(document).ready(function () {
   // Par défaut : affiche la page d'accueil ds le div "main"
   $("#main").load("html/accueil.html");
 
-   // se positionne en haut de page
-   $('html, body').animate({scrollTop: 0}, 0);
+
 
   // Clic sur le menu
 
@@ -15,7 +14,9 @@ $(document).ready(function () {
     // + active à celle cliquée
     $(this).addClass("active");
     // retour haut de page
-    $('html, body').animate({scrollTop: 0}, 0);
+    $('html, body').animate({
+      scrollTop: 0
+    }, 0);
     // - toutes les ban
     $('#banniere').removeClass("ban-accueil");
     $('#banniere').removeClass("ban-bienvenue");
@@ -84,7 +85,7 @@ $(document).ready(function () {
 
   // bouton retour haut page
   var duration = 500;
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       // Si un défillement de 100 pixels ou plus.
       // Ajoute le bouton
@@ -95,10 +96,12 @@ $(document).ready(function () {
     }
   });
 
-  $('.cRetour').click(function(event) {
+  $('.cRetour').click(function (event) {
     // Un clic provoque le retour en haut animé.
     event.preventDefault();
-    $('html, body').animate({scrollTop: 0}, duration);
+    $('html, body').animate({
+      scrollTop: 0
+    }, duration);
     return false;
   })
 
