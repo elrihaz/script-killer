@@ -89,7 +89,7 @@ p {
 
 #banniere {
   background-size:cover;
-  height: 480px;
+  height: 360px;
   display: flex;
   align-items:flex-end;
   justify-content:center;
@@ -234,7 +234,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 790px) {
+@media (max-width: 820px) {
 
   #banniere {
     justify-content:flex-start;
@@ -248,4 +248,11 @@ footer {
 
   #SK {
     width: 61px;
+}
+}
+
+@media (min-width: 1600px) {
+  #banniere {
+    height: 600px;
+  }
 }
