@@ -203,6 +203,8 @@ ul li.active:hover {
   width: 100%;
 }
 
+
+
 /*************************BAS DE PAGE**************************/
 
 footer {
@@ -237,6 +239,27 @@ footer {
   background:rgba(0, 0, 0, 1);
   transition:all ease-in 0.2s;
 }
+
+
+/***************************PHOTOSWIPE****************************************/
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
 
 
 /***************************************************************/
