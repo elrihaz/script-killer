@@ -277,12 +277,12 @@ footer {
 
   ul {
     display: block;
-    width: 140px;
-    font-size: 1em;
+    width: 145px;
+    font-size: 1.1em;
   }
 
   ul li {
-    height: 32px;
+    height: 40px;
     padding-top: 7px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -290,13 +290,13 @@ footer {
   }
 
   #SK {
-    width: 35;
+    width: 40px;
   padding: 5px;
 }
 
   #SK img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 }
