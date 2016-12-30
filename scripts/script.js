@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   // Mise à jour du theme actif ds le menu et - ban et fonds
   $('ul li').click(function () {
-    // - active à tous
+    // - active à tous les elements du menu
     $('ul li').removeClass("active");
     // + active à celle cliquée
     $(this).addClass("active");
@@ -26,9 +26,13 @@ $(document).ready(function () {
     $('#banniere').removeClass("ban-collabo");
     $('#banniere').removeClass("ban-audio");
     // - tous les fonds
-    $('#contenu').removeClass("fond-noir");
-    $('#contenu').removeClass("fond-blanc");
-    $('#contenu').removeClass("fond-gris");
+    $('#contenu').removeClass("fond-SK");
+    $('#contenu').removeClass("fond-bienvenue");
+    $('#contenu').removeClass("fond-croque");
+    $('#contenu').removeClass("fond-collabo");
+    $('#contenu').removeClass("fond-audio");
+    // + invisible aux jimbotrons de l'accueil
+    $('#jimbos').addClass("invisible");
   });
 
 
@@ -41,7 +45,9 @@ $(document).ready(function () {
     // + ban-accueil
     $('#banniere').addClass("ban-accueil");
     // + fond blanc
-    $('#contenu').addClass("fond-blanc");
+    $('#contenu').addClass("fond-SK");
+    // - invisible aux jimbotrons de l'accueil
+    $('#jimbos').removeClass("invisible");
 
   });
 
@@ -52,7 +58,7 @@ $(document).ready(function () {
     // + ban-bienvenue
     $('#banniere').addClass("ban-bienvenue");
     // + fond noir
-    $('#contenu').addClass("fond-noir");
+    $('#contenu').addClass("fond-bienvenue");
   });
 
   // croque-meurtre
@@ -62,7 +68,7 @@ $(document).ready(function () {
     // + ban-croque
     $('#banniere').addClass("ban-croque");
     // + fond gris
-    $('#contenu').addClass("fond-gris");
+    $('#contenu').addClass("fond-croque");
   });
 
   // collaborations
@@ -72,7 +78,7 @@ $(document).ready(function () {
     // + ban-collabo
     $('#banniere').addClass("ban-collabo");
     // + fond blanc
-    $('#contenu').addClass("fond-blanc");
+    $('#contenu').addClass("fond-collabo");
   });
 
   // audio-connaissances
@@ -82,7 +88,7 @@ $(document).ready(function () {
     // + ban-audio
     $('#banniere').addClass("ban-audio");
     // + fond blanc
-    $('#contenu').addClass("fond-blanc");
+    $('#contenu').addClass("fond-audio");
   });
 
 

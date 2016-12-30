@@ -171,17 +171,71 @@ ul li.active:hover {
 
 /****************************SECTION************************************************/
 
-.fond-noir {
+.fond-bienvenue {
   background-color: black;
 }
 
-.fond-gris {
+.fond-croque {
   background-color:dimgray;
 }
 
-.fond-blanc {
+.fond-collabo,
+.fond-audio {
   background-color: white;
 }
+
+.fond-SK {
+    background-color:aquamarine;
+}
+
+
+#jimbos.invisible {
+  display: none;
+}
+
+.jimbos-ordi {
+  height: 600px;
+  background-size:contain;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+}
+
+#jimbo-SK {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil.jpg");
+}
+
+#jimbo-bienvenue {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue.jpg");
+}
+
+#jimbo-croque {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque.jpg");
+}
+
+#jimbo-collabo {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo.jpg");
+}
+
+#jimbo-audio {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
+}
+
+.main-SK {
+  height: 600px;
+  padding-top: 120px;
+  color: black;
+}
+
+.main-SK h1 {
+  color:dimgrey
+}
+
+.main-bienvenue {
+  color: white;
+}
+
 
 .main-bienvenue h1,
 .main-bienvenue h2,
