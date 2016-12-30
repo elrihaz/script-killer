@@ -1,3 +1,5 @@
+/************** Body / H / P *************/
+
 html,
 body,
 header,
@@ -45,7 +47,10 @@ p {
   font-size: 1em;
 }
 
-.row{
+
+/***************** Mise en page ********************************/
+
+.row {
   display: block;
 }
 
@@ -53,59 +58,51 @@ p {
   justify-content: center;
 }
 
-.space-10 {
-  margin-top: 10px;
-}
-.space-20 {
-  margin-top: 20px;
-}
-.space-30 {
-  margin-top: 30px;
-}
-.space-50 {
-  margin-top: 50px;
-}
-.space-60 {
-  margin-top: 60px;
-}
-.space-80 {
-  margin-top: 80px;
-}
-.space-100 {
-  margin-top: 100px;
-}
-.space-150 {
-  margin-top: 150px;
-}
-
 .separation {
   border-bottom: 1px black solid;
 }
 
-/*************rendre les videos responsive*********/
-.videoWrapper {
-position: relative;
-padding-bottom: 56.25%; /* 16:9 */
-padding-top: 25px;
-height: 0;
-}
-.videoWrapper iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+.space-10 {
+  margin-top: 10px;
 }
 
-/******************************BANNIERE*********************************************/
+.space-20 {
+  margin-top: 20px;
+}
 
+.space-30 {
+  margin-top: 30px;
+}
+
+.space-50 {
+  margin-top: 50px;
+}
+
+.space-60 {
+  margin-top: 60px;
+}
+
+.space-80 {
+  margin-top: 80px;
+}
+
+.space-100 {
+  margin-top: 100px;
+}
+
+.space-150 {
+  margin-top: 150px;
+}
+
+
+/*********************** BANNIERES ***************************/
 
 #banniere {
   height: 600px;
-  background-size:cover;
+  background-size: cover;
   display: flex;
-  align-items:flex-end;
-  justify-content:center;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .ban-accueil {
@@ -129,7 +126,7 @@ height: 100%;
 }
 
 
-/******************************NAVIGATION*******************************************/
+/******************* NAVIGATION ******************************/
 
 ul {
   display: inline-flex;
@@ -169,14 +166,20 @@ ul li.active:hover {
 }
 
 
-/****************************SECTION************************************************/
+/********************* SECTIONS ******************************/
+
+/*********************** Fonds *********************/
+
+.fond-SK {
+  background-color: aquamarine;
+}
 
 .fond-bienvenue {
   background-color: black;
 }
 
 .fond-croque {
-  background-color:dimgray;
+  background-color: dimgray;
 }
 
 .fond-collabo,
@@ -184,21 +187,19 @@ ul li.active:hover {
   background-color: white;
 }
 
-.fond-SK {
-    background-color:aquamarine;
-}
 
+/****************** Jimbotrons ***************************/
 
-#jimbos.invisible {
+#SK-jimbos.invisible {
   display: none;
 }
 
-.jimbos-ordi {
+.jimbos {
   height: 600px;
   display: flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
+  align-items: center;
+  justify-content: center;
+  color: white;
   background-size: cover;
 }
 
@@ -222,6 +223,9 @@ ul li.active:hover {
   background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
 }
 
+
+/************** Mise en page de section *************************/
+
 .main-SK {
   height: 600px;
   padding-top: 120px;
@@ -229,33 +233,17 @@ ul li.active:hover {
 }
 
 .main-SK h1 {
-  color:dimgrey
+  color: dimgrey
 }
 
 .main-bienvenue {
   color: white;
 }
 
-
 .main-bienvenue h1,
 .main-bienvenue h2,
 .main-bienvenue h3 {
-  color:aquamarine;
-}
-
-.cous h2 {
-  font-size: 2.5em;
-  color: antiquewhite;
-}
-
-.cous p {
-  text-align:justify;
-  padding-left: 20px;
-}
-
-.cous span {
-  color:aquamarine;
-  font-size: 1.6em;
+  color: aquamarine;
 }
 
 .main-bienvenue p {
@@ -268,6 +256,23 @@ ul li.active:hover {
 }
 
 
+/************** Mise en page des cousinages *******************/
+
+.cous h2 {
+  font-size: 2.5em;
+  color: antiquewhite;
+}
+
+.cous p {
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.cous span {
+  color: aquamarine;
+  font-size: 1.6em;
+}
+
 
 /*************************BAS DE PAGE**************************/
 
@@ -277,35 +282,57 @@ footer {
 }
 
 
-/**************************************************************/
+/***************************************************************/
 
+
+/************* rendre les videos responsive *********/
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 /***********************bouton retour haut********************/
 
 .cRetour {
-  border-radius:3px;
-  padding:10px;
-  font-size:15px;
-  text-align:center;
-  color:#fff;
-  background:rgba(0, 0, 0, 0.25);
-  z-index:99999;
-  transition:all ease-in 0.2s;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 99999;
+  transition: all ease-in 0.2s;
   position: fixed;
   cursor: pointer;
   bottom: 1em;
   right: 20px;
   display: none;
 }
-.cRetour:before{ content: "\25b2"; }
-.cRetour:hover{
-  background:rgba(0, 0, 0, 1);
-  transition:all ease-in 0.2s;
+
+.cRetour:before {
+  content: "\25b2";
+}
+
+.cRetour:hover {
+  background: rgba(0, 0, 0, 1);
+  transition: all ease-in 0.2s;
 }
 
 
-/***************************PHOTOSWIPE****************************************/
+/************** PHOTOSWIPE ********************************/
 
 .my-gallery img {
   width: 100%;
@@ -317,24 +344,20 @@ footer {
 }
 
 
-/***************************************************************/
-
-
-/* Media Queries */
+/******************** Media Queries ******************************/
 
 @media (max-width: 820px) {
-
+  /**************** Bannieres *******************/
   #banniere {
-    justify-content:flex-start;
+    justify-content: flex-start;
     height: 200px;
   }
-
+  /**************** Navigation *******************/
   ul {
     display: block;
     width: 145px;
     font-size: 1.1em;
   }
-
   ul li {
     height: 40px;
     padding-top: 7px;
@@ -342,22 +365,92 @@ footer {
     padding-left: 5px;
     padding-right: 10px;
   }
-
   #SK {
     width: 40px;
-  padding: 5px;
-}
-
+    padding: 5px;
+  }
   #SK img {
     height: 30px;
     width: 30px;
-}
-
-
-  /*   Pour les images de la galerie   */
- div,
+  }
+  /********************   Images de la galerie   ************/
+  div,
   a img {
     padding: 10px 0px;
   }
+  /******************* Sections *********************/
+  /**************** bannieres ******************/
+.ban-accueil {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
+}
 
+.ban-bienvenue {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
+}
+
+.ban-croque {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
+}
+
+.ban-collabo {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+}
+
+.ban-audio {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
+}
+  /************************ Contenu *******************/
+  .main-SK {
+    height: 600px;
+    padding-top: 120px;
+    color: black;
+  }
+  .jimbos {
+    height: 200px;
+  }
+  /******************** Jimbotrons *******************/
+  #jimbo-SK {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
+}
+
+#jimbo-bienvenue {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
+}
+
+#jimbo-croque {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
+}
+
+#jimbo-collabo {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+}
+
+#jimbo-audio {
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
+}
+  /********************   Espaces   ************/
+  .space-10 {
+    margin-top: 5px;
+  }
+  .space-20 {
+    margin-top: 10px;
+  }
+  .space-30 {
+    margin-top: 15px;
+  }
+  .space-50 {
+    margin-top: 20px;
+  }
+  .space-60 {
+    margin-top: 30px;
+  }
+  .space-80 {
+    margin-top: 40px;
+  }
+  .space-100 {
+    margin-top: 50px;
+  }
+  .space-150 {
+    margin-top: 70px;
+  }
 }
