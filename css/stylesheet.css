@@ -168,6 +168,7 @@ ul li.active:hover {
 
 /********************* SECTIONS ******************************/
 
+
 /*********************** Fonds *********************/
 
 .fond-SK {
@@ -344,7 +345,9 @@ footer {
 }
 
 
+/*****************************************************************/
 /******************** Media Queries ******************************/
+/******************************************************************/
 
 @media (max-width: 820px) {
   /**************** Bannieres *******************/
@@ -380,29 +383,26 @@ footer {
   }
   /******************* Sections *********************/
   /**************** bannieres ******************/
-.ban-accueil {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
-}
-
-.ban-bienvenue {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
-}
-
-.ban-croque {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
-}
-
-.ban-collabo {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
-}
-
-.ban-audio {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
-}
+  .ban-accueil {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
+  }
+  .ban-bienvenue {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
+  }
+  .ban-croque {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
+  }
+  .ban-collabo {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+  }
+  .ban-audio {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
+  }
   /************************ Contenu *******************/
   .main-SK {
-    height: 600px;
-    padding-top: 120px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    height:auto;
     color: black;
   }
   .jimbos {
@@ -410,24 +410,20 @@ footer {
   }
   /******************** Jimbotrons *******************/
   #jimbo-SK {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
-}
-
-#jimbo-bienvenue {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
-}
-
-#jimbo-croque {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
-}
-
-#jimbo-collabo {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
-}
-
-#jimbo-audio {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
-}
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
+  }
+  #jimbo-bienvenue {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-bienvenue-m.jpg");
+  }
+  #jimbo-croque {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
+  }
+  #jimbo-collabo {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+  }
+  #jimbo-audio {
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
+  }
   /********************   Espaces   ************/
   .space-10 {
     margin-top: 5px;
