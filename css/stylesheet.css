@@ -195,11 +195,11 @@ ul li.active:hover {
 
 .jimbos-ordi {
   height: 600px;
-  background-size:contain;
   display: flex;
   align-items:center;
   justify-content:center;
   color:white;
+  background-size: cover;
 }
 
 #jimbo-SK {
