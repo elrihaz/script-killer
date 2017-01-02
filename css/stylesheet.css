@@ -377,6 +377,24 @@ footer {
 /******************************************************************/
 
 @media (max-width: 820px) {
+  /**************** Taille typos ******************/
+  h1,
+  h2 {
+    font-weight: 200;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  .cous span {
+  font-size: 1.4em;
+}
+  p {
+    font-size: 1em;
+  }
+
   /**************** Bannieres *******************/
   #banniere {
     justify-content: flex-start;
@@ -386,7 +404,7 @@ footer {
   ul {
     display: block;
     width: 145px;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   ul li {
     height: 40px;
