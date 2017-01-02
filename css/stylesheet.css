@@ -11,11 +11,11 @@
 }
 
 @font-face {
-  font-family: 'gubia_regularregular';
-  src: url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaregular-webfont.eot?') format('eot'),
-    url('https://elrihaz.github.io/script-killer/typos/Graviton_-_GubiaRegular.otf') format('truetype'),
-    url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaregular-webfont.woff') format('woff'),
-    url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaregular-webfont.svg#bathysphereregular') format('svg');
+  font-family: 'gubia_bold_alternateregular';
+  src: url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaboldalternate-webfont.eot?') format('eot'),
+    url('https://elrihaz.github.io/script-killer/typos/Graviton_-_GubiaBoldAlternate.otf') format('truetype'),
+    url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaboldalternate-webfont.woff') format('woff'),
+    url('https://elrihaz.github.io/script-killer/typos/graviton_-_gubiaboldalternate-webfont.svg#bathysphereregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -67,7 +67,7 @@ h2 {
 
 p {
   font-family: 'gubia_regularregular', serif;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 
