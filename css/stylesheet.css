@@ -463,6 +463,14 @@ footer {
   .jimbos {
     height: 200px;
   }
+
+  /********************   Images des portraits et cousinages   ************/
+  .cous img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+
   /******************** Jimbotrons *******************/
   #jimbo-SK {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil-m.jpg");
