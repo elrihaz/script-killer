@@ -81,6 +81,11 @@ p {
   justify-content: center;
 }
 
+p.ital,
+span.ital {
+  font-style: italic;
+}
+
 .separation {
   border-bottom: 1px black solid;
 }
@@ -272,6 +277,7 @@ ul li.active:hover {
 
 .main-bienvenue h1 {
   text-align: center;
+  font-size: 2.3em;
 }
 
 .main-bienvenue p {
@@ -296,7 +302,7 @@ ul li.active:hover {
   padding-left: 20px;
 }
 
-.cous span {
+span.cous-titre {
   color: aquamarine;
   font-size: 1.6em;
 }
