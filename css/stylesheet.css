@@ -471,6 +471,12 @@ footer {
     max-height: 66%;
   }
 
+  .portrait img {
+    margin: 0 auto;
+    max-width: 66%;
+    max-height: 66%;
+  }
+
 
   /******************** Jimbotrons *******************/
   #jimbo-SK {
