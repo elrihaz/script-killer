@@ -87,6 +87,11 @@ span.ital {
   font-style: italic;
 }
 
+p.gras,
+span.gras {
+  font-family: 'gubia_bold_alternateregular', sans-serif;
+}
+
 .separation {
   border-bottom: 1px black solid;
 }
@@ -300,6 +305,7 @@ ul li.active:hover {
 }
 
 p.cous-titre {
+  font-family: 'gubia_bold_alternateregular', sans-serif;
   color: aquamarine;
   font-size: 1.6em;
 }
@@ -497,7 +503,7 @@ footer {
   }
   /********************   Espaces   ************/
   .space-10 {
-    margin-top: 5px;
+    margin-top: 0px;
   }
   .space-20 {
     margin-top: 10px;
