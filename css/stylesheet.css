@@ -54,15 +54,14 @@ h2,
 h3 {
   font-family: 'bathysphereregular', serif;
   font-weight: 300;
+  color: darkseagreen;
 }
 
 h1 {
-  color: darkseagreen;
   font-size: 1.8em;
 }
 
 h2 {
-  color: darkslategray;
   font-size: 1.5em;
 }
 
@@ -214,7 +213,7 @@ ul li.active:hover {
 }
 
 .fond-croque {
-  background-color: dimgray;
+  background-color: #353638;
 }
 
 .fond-collabo,
@@ -267,19 +266,15 @@ ul li.active:hover {
   color: black;
 }
 
-.main-SK h1 {
-  color: dimgrey
+.main-SK h1,
+.main-SK h2 {
+  color: black;
 }
 
 .main-bienvenue {
   color: white;
 }
 
-.main-bienvenue h1,
-.main-bienvenue h2,
-.main-bienvenue h3 {
-  color: aquamarine;
-}
 
 .main-bienvenue h1,
 .main-croque h1 {
@@ -289,6 +284,10 @@ ul li.active:hover {
 
 .main-bienvenue p {
   color: antiquewhite;
+}
+
+.main-croque {
+  color: white;
 }
 
 .main-collabo img {
