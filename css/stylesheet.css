@@ -466,8 +466,9 @@ footer {
 
   /********************   Images des portraits et cousinages   ************/
   .cous img {
-    max-width: 50%;
-    max-height: 50%;
+    margin: 0 auto;
+    max-width: 66%;
+    max-height: 66%;
   }
 
 
