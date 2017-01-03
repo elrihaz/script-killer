@@ -270,6 +270,10 @@ ul li.active:hover {
   color: aquamarine;
 }
 
+.main-bienvenue h1 {
+  text-align: center;
+}
+
 .main-bienvenue p {
   color: antiquewhite;
 }
