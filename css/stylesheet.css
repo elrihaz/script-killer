@@ -297,16 +297,15 @@ ul li.active:hover {
   color: antiquewhite;
 }
 
-.cous p {
-  text-align: justify;
-  padding-left: 20px;
-}
-
-span.cous-titre {
+p.cous-titre {
   color: aquamarine;
   font-size: 1.6em;
 }
 
+.cous p {
+  text-align: justify;
+  padding-left: 20px;
+}
 
 /*************************BAS DE PAGE**************************/
 
@@ -395,12 +394,17 @@ footer {
   h1 {
     font-size: 1.5em;
   }
+  .main-bienvenue h1 {
+    font-size: 1.8em;
+  }
   h2 {
     font-size: 1.2em;
   }
-  .cous span {
+p.cous-titre {
   font-size: 1.5em;
+  text-align:center;
 }
+
   p {
     font-size: 1em;
   }
@@ -472,9 +476,9 @@ footer {
   }
 
   .portrait img {
-    margin: 0 auto;
-    max-width: 66%;
-    max-height: 66%;
+
+    max-width: 33%;
+    max-height: 33%;
   }
 
 
@@ -502,21 +506,21 @@ footer {
     margin-top: 10px;
   }
   .space-30 {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .space-50 {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .space-60 {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .space-80 {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .space-100 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .space-150 {
-    margin-top: 70px;
+    margin-top: 50px;
   }
 }
