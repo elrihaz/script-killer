@@ -151,7 +151,7 @@ span.gras {
 }
 
 .ban-collabo {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo.jpg");
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
 }
 
 .ban-audio {
@@ -250,7 +250,7 @@ ul li.active:hover {
 }
 
 #jimbo-collabo {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo.jpg");
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
 }
 
 #jimbo-audio {
@@ -320,6 +320,11 @@ p.cous-titre {
 footer {
   height: 220px;
   background-color: #32333B;
+  padding-top: 40px;
+}
+
+footer p {
+  color: white;
 }
 
 
@@ -459,7 +464,7 @@ footer {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
   }
   .ban-collabo {
-    background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
   }
   .ban-audio {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
@@ -495,7 +500,7 @@ footer {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-croque-m.jpg");
   }
   #jimbo-collabo {
-    background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
   }
   #jimbo-audio {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
