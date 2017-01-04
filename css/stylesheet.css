@@ -297,6 +297,10 @@ ul li.active:hover {
   color: white;
 }
 
+.main-collabo h2 {
+  text-align: center;
+}
+
 .main-collabo p.intro {
   padding-left: 16px;
 }
