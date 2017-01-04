@@ -309,18 +309,17 @@ ul li.active:hover {
   padding-left: 16px;
 }
 
-.main-collabo p.intro span {
-  color:darkseagreen;
+.main-collabo a:link, .main-collabo a:hover, .main-collabo a:visited, .main-collabo a:active, .main-collabo a:focus {
+  text-decoration: none;
+  color: darkseagreen;
+}
+
+.main-collabo .intro span {
   font-size: 1.4em;
 }
 
 .main-collabo figure p {
   text-align: justify;
-}
-
-.main-collabo figure a {
-  text-decoration: none;
-  color: darkseagreen;
 }
 
 .main-collabo img {
@@ -351,7 +350,7 @@ p.cous-titre {
 /*************************BAS DE PAGE**************************/
 
 footer {
-  height: 600px;
+  height: 440px;
   background-color: #32333B;
   padding-top: 60px;
 }
