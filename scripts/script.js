@@ -91,6 +91,13 @@ $(document).ready(function () {
   });
 
 
+  /////// Bouton mail //////////////////////////
+
+  $("#Mail").click(function () {
+    window.open('mailto:emmanuel@scriptkiller.fr', 'emailWindow');
+  });
+
+
   /////// Bouton retour haut //////////////////////////
 
   var duration = 500;
