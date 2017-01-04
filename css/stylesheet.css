@@ -314,6 +314,11 @@ ul li.active:hover {
   text-align: justify;
 }
 
+.main-collabo figure a {
+  text-decoration: none;
+  color: darkseagreen;
+}
+
 .main-collabo img {
   height: auto;
   width: 100%;
