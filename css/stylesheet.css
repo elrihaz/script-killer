@@ -347,16 +347,16 @@ p.cous-titre {
 /*************************BAS DE PAGE**************************/
 
 footer {
-  height: 300px;
+  height: 600px;
   background-color: #32333B;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 footer p {
   color: white;
 }
 
-footer a {
+footer a:link, footer a:hover, footer a:visited, footer a:active, footer a:focus {
   text-decoration: none;
   color: darkseagreen;
 }
@@ -381,6 +381,33 @@ footer a {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+/*********************** bouton mail ********************/
+
+.cMail {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 99999;
+  transition: all ease-in 0.2s;
+  position: fixed;
+  cursor: pointer;
+  bottom: 1em;
+  right: 20px;
+}
+
+.cMail:before {
+  content: "\25b2";
+}
+
+.cMail:hover {
+  background: rgba(0, 0, 0, 1);
+  transition: all ease-in 0.2s;
 }
 
 
