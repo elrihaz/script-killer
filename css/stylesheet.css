@@ -46,7 +46,13 @@ li {
 }
 
 body {
-  word-wrap: break-word;
+  /*word-wrap: break-word;*/
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 }
 
 h1,
@@ -79,6 +85,7 @@ p {
 
 .centrer {
   justify-content: center;
+  text-align: center;
 }
 
 p.ital,
@@ -275,9 +282,9 @@ ul li.active:hover {
   color: white;
 }
 
-
 .main-bienvenue h1,
-.main-croque h1 {
+.main-croque h1,
+.main-collabo h1 {
   text-align: center;
   font-size: 2.3em;
 }
@@ -288,6 +295,20 @@ ul li.active:hover {
 
 .main-croque {
   color: white;
+}
+
+.main-collabo p.intro {
+  padding-left: 16px;
+}
+
+.main-collabo p.intro span {
+  color:darkseagreen;
+  font-size: 1.4em;
+}
+
+.main-collabo figure p {
+  text-align: justify;
+  font-family: 'gubia_bold_alternateregular', sans-serif;
 }
 
 .main-collabo img {
