@@ -364,6 +364,9 @@ footer a:link, footer a:hover, footer a:visited, footer a:active, footer a:focus
   color: darkseagreen;
 }
 
+#merci.invisible {
+  display: none;
+}
 
 /***************************************************************/
 

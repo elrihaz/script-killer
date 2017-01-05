@@ -30,8 +30,9 @@ $(document).ready(function () {
     $('#contenu').removeClass("fond-croque");
     $('#contenu').removeClass("fond-collabo");
     $('#contenu').removeClass("fond-audio");
-    // + invisible aux jimbotrons de l'accueil
+    // + invisible aux jimbotrons de l'accueil et aux remerciements du footer
     $('#SK-jimbos').addClass("invisible");
+    $('#merci').addClass("invisible");
   });
 
 
@@ -45,8 +46,9 @@ $(document).ready(function () {
     $('#banniere').addClass("ban-accueil");
     // + fond blanc
     $('#contenu').addClass("fond-SK");
-    // - invisible aux jimbotrons de l'accueil
+    // - invisible aux jimbotrons de l'accueil et aux remerciements du footer
     $('#SK-jimbos').removeClass("invisible");
+    $('#merci').removeClass("invisible");
 
   });
 
@@ -94,7 +96,7 @@ $(document).ready(function () {
   /////// Bouton mail //////////////////////////
 
   $("#Mail").click(function () {
-    window.open('mailto:emmanuel@scriptkiller.fr', 'emailWindow');
+    window.open('mailto:emmanuellautreamont@gmail.com', 'emailWindow');
   });
 
 
