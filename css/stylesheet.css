@@ -581,7 +581,11 @@ footer a:link, footer a:hover, footer a:visited, footer a:active, footer a:focus
   #jimbo-audio {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
   }
-  /********************   Espaces   ************/
+  /****************** Bas de page *********************/
+  footer {
+    padding-top: 30px;
+  }
+  /********************   Espaces   *************************/
   .space-10 {
     margin-top: 0px;
   }
@@ -592,18 +596,18 @@ footer a:link, footer a:hover, footer a:visited, footer a:active, footer a:focus
     margin-top: 10px;
   }
   .space-50 {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .space-60 {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .space-80 {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .space-100 {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .space-150 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 }
