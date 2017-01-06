@@ -33,6 +33,8 @@ $(document).ready(function () {
     // + invisible aux jimbotrons de l'accueil et aux remerciements du footer
     $('#SK-jimbos').addClass("invisible");
     $('#merci').addClass("invisible");
+    // + smallFooter au footer
+    $('footer').addClass("smallFooter");
   });
 
 
@@ -49,7 +51,8 @@ $(document).ready(function () {
     // - invisible aux jimbotrons de l'accueil et aux remerciements du footer
     $('#SK-jimbos').removeClass("invisible");
     $('#merci').removeClass("invisible");
-
+    // - smallFooter au footer
+    $('footer').removeClass("smallFooter");
   });
 
   // bienvenue la chance

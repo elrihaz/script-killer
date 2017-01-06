@@ -368,6 +368,10 @@ footer a:link, footer a:hover, footer a:visited, footer a:active, footer a:focus
   display: none;
 }
 
+footer.smallFooter {
+  height: 200px;
+}
+
 
 
 /***********************************************************/
