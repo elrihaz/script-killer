@@ -269,23 +269,24 @@ ul li.active:hover {
 
 .main-SK {
   height: 600px;
-  padding-top: 120px;
-  color: black;
+  color:black;
 }
 
 .main-SK h1,
 .main-SK h2 {
-  color: black;
+  color: darkslategrey;
 }
 
 .main-SK p {
   text-align: justify;
+  font-size: 1.2em;
 }
 
 .main-bienvenue {
   color: white;
 }
 
+.main-SK h1,
 .main-bienvenue h1,
 .main-croque h1,
 .main-collabo h1 {
