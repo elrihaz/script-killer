@@ -557,6 +557,9 @@ footer.smallFooter {
     height: auto;
     color: black;
   }
+  .main-SK img {
+    margin-bottom: 10px;
+  }
   .jimbos {
     height: 200px;
   }
