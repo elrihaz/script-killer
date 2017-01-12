@@ -75,6 +75,16 @@ $(document).ready(function () {
     $('#contenu').addClass("fond-croque");
   });
 
+   // autour des films
+  $('#audio').click(function () {
+    // contenu
+    $("#main").load("html/audioconnaissances.html");
+    // + ban-audio
+    $('#banniere').addClass("ban-audio");
+    // + fond blanc
+    $('#contenu').addClass("fond-audio");
+  });
+
   // collaborations
   $('#collabo').click(function () {
     // contenu
@@ -83,16 +93,6 @@ $(document).ready(function () {
     $('#banniere').addClass("ban-collabo");
     // + fond blanc
     $('#contenu').addClass("fond-collabo");
-  });
-
-  // audio-connaissances
-  $('#audio').click(function () {
-    // contenu
-    $("#main").load("html/audioconnaissances.html");
-    // + ban-audio
-    $('#banniere').addClass("ban-audio");
-    // + fond blanc
-    $('#contenu').addClass("fond-audio");
   });
 
 

@@ -162,7 +162,7 @@ span.gras {
 }
 
 .ban-audio {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio.gif");
+  background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo.jpg");
 }
 
 
@@ -211,7 +211,8 @@ ul li.active:hover {
 
 /*********************** Fonds *********************/
 
-.fond-SK {
+.fond-SK,
+.fond-audio {
   background-color: aquamarine;
 }
 
@@ -223,11 +224,19 @@ ul li.active:hover {
   background-color: #353638;
 }
 
-.fond-collabo,
-.fond-audio {
+.fond-collabo {
   background-color: white;
 }
 
+.cous-bienvenue {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.cous-croque {
+  background-color: #353638;
+  color: white;
+}
 
 /****************** Jimbotrons ***************************/
 
@@ -289,6 +298,7 @@ ul li.active:hover {
 .main-SK h1,
 .main-bienvenue h1,
 .main-croque h1,
+.main-autour h1,
 .main-collabo h1 {
   text-align: center;
   font-size: 2.3em;
@@ -548,7 +558,7 @@ footer.smallFooter {
     background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
   }
   .ban-audio {
-    background-image: url("https://elrihaz.github.io/script-killer/images/ban-audio-m.gif");
+    background-image: url("https://elrihaz.github.io/script-killer/images/ban-collabo-m.jpg");
   }
   /************************ Contenu *******************/
   .main-SK {
