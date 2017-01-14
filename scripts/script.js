@@ -96,6 +96,75 @@ $(document).ready(function () {
   });
 
 
+ // Clic sur les jimbotrons de l'accueil
+
+  // Mise à jour du theme actif ds le menu et - ban et fonds
+  $('#jimbo-bienvenue, #jimbo-croque, #jimbo-collabo').click(function () {
+    // - active à tous les elements du menu
+    $('ul li').removeClass("active");
+    // retour haut de page
+    $('html, body').animate({
+      scrollTop: 0
+    }, 0);
+    // - toutes les ban
+    $('#banniere').removeClass("ban-accueil");
+    $('#banniere').removeClass("ban-bienvenue");
+    $('#banniere').removeClass("ban-croque");
+    $('#banniere').removeClass("ban-collabo");
+    $('#banniere').removeClass("ban-audio");
+    // - tous les fonds
+    $('#contenu').removeClass("fond-SK");
+    $('#contenu').removeClass("fond-bienvenue");
+    $('#contenu').removeClass("fond-croque");
+    $('#contenu').removeClass("fond-collabo");
+    $('#contenu').removeClass("fond-audio");
+    // + invisible aux jimbotrons de l'accueil et aux remerciements du footer
+    $('#SK-jimbos').addClass("invisible");
+    $('#merci').addClass("invisible");
+    // + smallFooter au footer
+    $('footer').addClass("smallFooter");
+  });
+
+
+  // chargement du contenu html dans main et de la banniere du thème choisi
+
+  // bienvenue la chance
+  $('#jimbo-bienvenue').click(function () {
+    // contenu
+    $("#main").load("html/bienvenuelachance.html");
+    // + ban-bienvenue
+    $('#banniere').addClass("ban-bienvenue");
+    // + active au menu
+    $("#bienvenue").addClass("active");
+    // + fond noir
+    $('#contenu').addClass("fond-bienvenue");
+  });
+
+  // croque-meurtre
+  $('#jimbo-croque').click(function () {
+    // contenu
+    $("#main").load("html/croque-meurtre.html");
+    // + ban-croque
+    $('#banniere').addClass("ban-croque");
+     // + active au menu
+    $("#croque").addClass("active");
+    // + fond gris
+    $('#contenu').addClass("fond-croque");
+  });
+
+  // collaborations
+  $('#jimbo-collabo').click(function () {
+    // contenu
+    $("#main").load("html/collaborations.html");
+    // + ban-collabo
+    $('#banniere').addClass("ban-collabo");
+     // + active au menu
+    $("#collabo").addClass("active");
+    // + fond blanc
+    $('#contenu').addClass("fond-collabo");
+  });
+
+
   /////// Bouton mail //////////////////////////
 
   $("#Mail").click(function () {

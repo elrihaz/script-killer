@@ -253,8 +253,11 @@ ul li.active:hover {
   background-size: cover;
 }
 
-#jimbo-SK {
-  background-image: url("https://elrihaz.github.io/script-killer/images/ban-accueil.jpg");
+#jimbo-bienvenue,
+#jimbo-croque,
+#jimbo-collabo,
+#jimbo-audio {
+  cursor: pointer;
 }
 
 #jimbo-bienvenue {
